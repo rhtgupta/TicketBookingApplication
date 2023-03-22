@@ -1,0 +1,11 @@
+package com.xyz.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
+public class City {
+    private final int id;
+    private final String name;
+}
